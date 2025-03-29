@@ -40,3 +40,15 @@ npm instal @types/bcryptjs@^2
 ```
 npx prisma init
 ```
+
+## マイグレーションとシード実行
+```
+// マイグレーション(テーブル作成)
+npx prisma migrate dev --name init
+// シード実行(ダミーデータ)
+npx prisma db seed
+// DBの内容を確認
+npx prisma studio
+// DBリセット
+npx prisma migrate reset
+```
