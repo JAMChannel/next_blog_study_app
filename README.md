@@ -52,3 +52,24 @@ npx prisma studio
 // DBリセット
 npx prisma migrate reset
 ```
+
+## デザイン shadcn/ui
+- https://ui.shadcn.com/
+
+```
+npx shadcn@latest init
+base color > Neutral
+Use --force
+```
+
+- 必要なコンポーネントをインストール
+```
+npx shadcn@latest add navigation-menu
+button input label alert dropdown-menu
+alert-dialog
+```
+
+## 日付フォーマット
+```
+npm instal date-fns@^4
+```
